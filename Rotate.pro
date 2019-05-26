@@ -37,3 +37,8 @@ RC_FILE += app.rc
 
 RESOURCES += \
     resource.qrc
+    
+win32 {
+    LIBS +=  \
+        -luser32
+}
